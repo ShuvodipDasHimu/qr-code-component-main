@@ -1,0 +1,68 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #D5E1EF;
+  font-family: "Outfit", sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: Consolas, sans-serif;
+}
+
+.attribution {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.technologist {
+  color: black;
+  font-weight: bold;
+  font-size:25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  width: 350px;
+  border-radius: 20px;
+}
+
+.qr-container img {
+  width: 300px;
+  border-radius: 30px;
+}
+
+.text-container {
+  text-align: center;
+  width: 500px;
+}
+
+.text-container h2 {
+  padding-top: 20px;
+  padding-bottom: 14px;
+}
+
+.text-container p {
+  color: #7D889E;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
